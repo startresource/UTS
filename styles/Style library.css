@@ -1,0 +1,42 @@
+﻿body {
+	margin: 0; /*обнуляем все отступы*/
+	font-size: 100%; /*задаем самый маленький размер шрифра*/
+	font-weight: normal; /*нормальная толщина шрифта ( от 100 до 900)*/
+	text-align: center; /*размещаем весь текст по центру*/
+	padding: 30px; /*делаем отступ от края страницы до объектов*/
+	background-size: cover;
+	background-color: #B494C4;
+	background-image: url(https://images.unsplash.com/photo-1512503959943-9d35a3636b51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+}
+
+h1 {
+	color: white;
+
+}
+
+* {
+	box-sizing: border-box; /*во всех блоках фиксируем их размер и все отступы будут делаться вовнутрь*/
+}
+
+a {
+	text-decoration: none; /*убрать подчеркивание текста*/
+	color: blueviolet;
+}
+
+/*.title {
+	text-align: center;
+}*/
+div {
+	padding: 30px;
+	/*height: 100%;*/
+	background-color: rgba(0, 0, 0, .3);
+}
+.a-card {
+	color: white;
+}
+/*.table {
+	margin: 30px auto 30px;
+	width: 70%;
+	height: 100%;
+	text-color: white;
+}*/
